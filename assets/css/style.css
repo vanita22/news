@@ -1,1 +1,63 @@
 /* Holiii otra vez */
+body{
+	position: relative;
+	font-family: 'Merriweather Sans', sans-serif;
+	color: black;
+}
+
+/*menu*/
+
+#navegacion ul li{
+	margin-left: -85px;	
+	display: inline-block;
+}
+
+#navegacion ul li:hover{
+	background-color: transparent;
+	border-style: none;
+	border-bottom: 4px solid red;	
+}
+
+
+#navegacion li{	
+	margin-right: 130px;
+}
+
+.navbar-nav li:hover{	
+	padding: 3px;
+	background-color: transparent;
+}
+
+#navegacion li a{	
+	color: black;
+	font-weight: bold;
+}
+
+.busqueda{
+	width: 55px;
+	height: 50px;
+	background-color: red;	
+	float: right;
+	display: inline-block;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+
+.linea{
+	width: 100%;
+	border: 1px solid red;	
+}
+
+.menu{
+	width: 100%;
+	height: 50vh;
+}
+
+.navbar-brand{	
+	color: black;
+}
+
+i{	
+	color: red;
+	font-size: 35px;	
+}
