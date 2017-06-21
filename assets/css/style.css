@@ -12,8 +12,7 @@ body{
 	display: inline-block;
 }
 
-#navegacion ul li:hover{
-	background-color: transparent;
+#navegacion ul li:hover{	
 	border-style: none;
 	border-bottom: 4px solid red;	
 }
@@ -23,9 +22,8 @@ body{
 	margin-right: 130px;
 }
 
-.navbar-nav li:hover{	
-	padding: 3px;
-	background-color: transparent;
+.navbar-nav li:hover{
+	padding: 3px;	
 }
 
 #navegacion li a{	
@@ -50,14 +48,49 @@ body{
 
 .menu{
 	width: 100%;
-	height: 50vh;
+	height: 50vh;	
+}
+
+.navbar{
+	background-color: white;
 }
 
 .navbar-brand{	
 	color: black;
+	display: inline-block;
+}
+.punto{
+	color: red;
+	font-size: 65px;
+	display: inline-block;
 }
 
-i{	
-	color: red;
-	font-size: 35px;	
+
+/*box 1*/
+
+#seccion1{
+	margin-top: -120px;
 }
+
+.fotoa{
+	background-color: red; 
+	color: white;
+	font-weight: bold;
+	width: 100px;
+	height: 30px;
+	margin-bottom: -30px;
+	padding: 5px 15px;
+	position: relative;
+}
+
+
+#fotoc{
+	margin-top: 20px;
+	margin-right: 140px;
+	margin-left: -14px;
+}
+
+#fotod{
+	margin-top: 20px;
+}
+
